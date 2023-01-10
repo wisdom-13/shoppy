@@ -5,9 +5,9 @@ import { useAuthContext } from '../components/context/AuthContext';
 export default function ProtectedRoute({ children, requireAdmin }) {
   const { user } = useAuthContext();
 
-  if (!user || (requireAdmin && !user.isAdmin)) {
-    return <Navigate to="/" replace></Navigate>
-  }
+  // if (!user || (requireAdmin && !user.isAdmin)) {
+  //   return <Navigate to="/" replace></Navigate>
+  // }
 
   return children;
 };
