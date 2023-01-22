@@ -3,8 +3,9 @@ import { useQuery } from '@tanstack/react-query';
 import { getCart } from '../api/firebase';
 import { useAuthContext } from '../context/AuthContext';
 import CartItem from '../components/CartItem';
-import { BsFillPlusCircleFill, FaEquals } from 'react-icons/bs';
+import { BsFillPlusCircleFill } from 'react-icons/bs';
 import PriceCard from '../components/PriceCard';
+import { FaEquals } from 'react-icons/fa';
 
 const SHIPPING = 3000;
 
@@ -23,7 +24,7 @@ export default function MyCart() {
       {hasProducts && <>
         <ul>
           {products && products.map(
-            (product) => (<CartItem key={product.id} product={product} />)
+            (product) => (<CartItem key={product.id} product={product} uid={uid} />)
           )}
         </ul>
         <div>
