@@ -1,0 +1,165 @@
+Html Webpack Plugin:
+  Error: Child compilation failed:
+  Module not found: Error: Can't resolve '/Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/html-webpack-plugin/lib/loader.js' in '/Use  rs/jhlee/02_STUDY/react-basic/shoppy'
+  ModuleNotFoundError: Module not found: Error: Can't resolve '/Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/html-webpack-plugin/li  b/loader.js' in '/Users/jhlee/02_STUDY/react-basic/shoppy'
+      at /Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/webpack/lib/Compilation.js:2016:28
+      at /Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/webpack/lib/NormalModuleFactory.js:798:13
+      at eval (eval at create (/Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/tapable/lib/HookCodeFactory.js:33:10), :10:  1)
+      at /Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/webpack/lib/NormalModuleFactory.js:270:22
+      at eval (eval at create (/Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/tapable/lib/HookCodeFactory.js:33:10), :9:1  )
+      at /Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/webpack/lib/NormalModuleFactory.js:434:22
+      at /Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/webpack/lib/NormalModuleFactory.js:120:11
+      at /Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/webpack/lib/NormalModuleFactory.js:635:23
+      at /Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/neo-async/async.js:2830:7
+      at done (/Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/neo-async/async.js:2925:13)
+      at /Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/webpack/lib/NormalModuleFactory.js:1021:23
+      at finishWithoutResolve (/Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/enhanced-resolve/lib/Resolver.js:312:11)
+      at /Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/enhanced-resolve/lib/Resolver.js:386:15
+      at /Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/enhanced-resolve/lib/Resolver.js:435:5
+      at eval (eval at create (/Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/tapable/lib/HookCodeFactory.js:33:10), :16:  1)
+      at /Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/enhanced-resolve/lib/Resolver.js:435:5
+      at eval (eval at create (/Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/tapable/lib/HookCodeFactory.js:33:10), :27:  1)
+      at /Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js:87:43
+      at /Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/enhanced-resolve/lib/Resolver.js:435:5
+      at eval (eval at create (/Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/tapable/lib/HookCodeFactory.js:33:10), :15:  1)
+      at /Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/enhanced-resolve/lib/Resolver.js:435:5
+      at eval (eval at create (/Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/tapable/lib/HookCodeFactory.js:33:10), :15:  1)
+      at /Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/enhanced-resolve/lib/Resolver.js:435:5
+      at eval (eval at create (/Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/tapable/lib/HookCodeFactory.js:33:10), :16:  1)
+      at /Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/enhanced-resolve/lib/Resolver.js:435:5
+      at eval (eval at create (/Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/tapable/lib/HookCodeFactory.js:33:10), :27:  1)
+      at /Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js:87:43
+      at /Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/enhanced-resolve/lib/Resolver.js:435:5
+      at eval (eval at create (/Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/tapable/lib/HookCodeFactory.js:33:10), :16:  1)
+      at /Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/enhanced-resolve/lib/Resolver.js:435:5
+      at eval (eval at create (/Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/tapable/lib/HookCodeFactory.js:33:10), :15:  1)
+      at /Users/jhlee/02_STUDY/react-basic/shoppy/node_modules/enhanced-resolve/lib/DirectoryExistsPlugin.js:41:15
+      at processTicksAndRejections (internal/process/task_queues.js:81:21)
+  
+  - Compilation.js:2016 
+    [shoppy]/[webpack]/lib/Compilation.js:2016:28
+  
+  - NormalModuleFactory.js:798 
+    [shoppy]/[webpack]/lib/NormalModuleFactory.js:798:13
+  
+  
+  - NormalModuleFactory.js:270 
+    [shoppy]/[webpack]/lib/NormalModuleFactory.js:270:22
+  
+  
+  - NormalModuleFactory.js:434 
+    [shoppy]/[webpack]/lib/NormalModuleFactory.js:434:22
+  
+  - NormalModuleFactory.js:120 
+    [shoppy]/[webpack]/lib/NormalModuleFactory.js:120:11
+  
+  - NormalModuleFactory.js:635 
+    [shoppy]/[webpack]/lib/NormalModuleFactory.js:635:23
+  
+  - async.js:2830 
+    [shoppy]/[neo-async]/async.js:2830:7
+  
+  - async.js:2925 done
+    [shoppy]/[neo-async]/async.js:2925:13
+  
+  - NormalModuleFactory.js:1021 
+    [shoppy]/[webpack]/lib/NormalModuleFactory.js:1021:23
+  
+  - Resolver.js:312 finishWithoutResolve
+    [shoppy]/[enhanced-resolve]/lib/Resolver.js:312:11
+  
+  - Resolver.js:386 
+    [shoppy]/[enhanced-resolve]/lib/Resolver.js:386:15
+  
+  - Resolver.js:435 
+    [shoppy]/[enhanced-resolve]/lib/Resolver.js:435:5
+  
+  
+  - Resolver.js:435 
+    [shoppy]/[enhanced-resolve]/lib/Resolver.js:435:5
+  
+  
+  - DescriptionFilePlugin.js:87 
+    [shoppy]/[enhanced-resolve]/lib/DescriptionFilePlugin.js:87:43
+  
+  - Resolver.js:435 
+    [shoppy]/[enhanced-resolve]/lib/Resolver.js:435:5
+  
+  
+  - Resolver.js:435 
+    [shoppy]/[enhanced-resolve]/lib/Resolver.js:435:5
+  
+  
+  - Resolver.js:435 
+    [shoppy]/[enhanced-resolve]/lib/Resolver.js:435:5
+  
+  
+  - Resolver.js:435 
+    [shoppy]/[enhanced-resolve]/lib/Resolver.js:435:5
+  
+  
+  - DescriptionFilePlugin.js:87 
+    [shoppy]/[enhanced-resolve]/lib/DescriptionFilePlugin.js:87:43
+  
+  - Resolver.js:435 
+    [shoppy]/[enhanced-resolve]/lib/Resolver.js:435:5
+  
+  
+  - Resolver.js:435 
+    [shoppy]/[enhanced-resolve]/lib/Resolver.js:435:5
+  
+  
+  - DirectoryExistsPlugin.js:41 
+    [shoppy]/[enhanced-resolve]/lib/DirectoryExistsPlugin.js:41:15
+  
+  - task_queues.js:81 processTicksAndRejections
+    internal/process/task_queues.js:81:21
+  
+  - child-compiler.js:169 
+    [shoppy]/[html-webpack-plugin]/lib/child-compiler.js:169:18
+  
+  - Compiler.js:551 finalCallback
+    [shoppy]/[webpack]/lib/Compiler.js:551:5
+  
+  - Compiler.js:577 
+    [shoppy]/[webpack]/lib/Compiler.js:577:11
+  
+  - Compiler.js:1196 
+    [shoppy]/[webpack]/lib/Compiler.js:1196:17
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [shoppy]/[tapable]/lib/Hook.js:18:14
+  
+  - Compiler.js:1192 
+    [shoppy]/[webpack]/lib/Compiler.js:1192:33
+  
+  - Compilation.js:2787 finalCallback
+    [shoppy]/[webpack]/lib/Compilation.js:2787:11
+  
+  - Compilation.js:3092 
+    [shoppy]/[webpack]/lib/Compilation.js:3092:11
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [shoppy]/[tapable]/lib/Hook.js:18:14
+  
+  - Compilation.js:3085 
+    [shoppy]/[webpack]/lib/Compilation.js:3085:38
+  
+  
+  - Compilation.js:521 
+    [shoppy]/[webpack]/lib/Compilation.js:521:10
+  
+  - SourceMapDevToolPlugin.js:549 
+    [shoppy]/[webpack]/lib/SourceMapDevToolPlugin.js:549:10
+  
+  - async.js:2830 
+    [shoppy]/[neo-async]/async.js:2830:7
+  
+  - async.js:2857 Object.each
+    [shoppy]/[neo-async]/async.js:2857:9
+  
+  - SourceMapDevToolPlugin.js:384 
+    [shoppy]/[webpack]/lib/SourceMapDevToolPlugin.js:384:17
+  
